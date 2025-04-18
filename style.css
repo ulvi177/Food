@@ -13,11 +13,11 @@ body section {
 }
 
 #beautiful {
-  background-color: #f1f3f4;
+  background-color: #e2e4e8;
 }
 #beautiful .box h1 {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 200px;
   margin-right: 80px;
 }
 #beautiful .box span {
@@ -34,7 +34,7 @@ body section {
   font-size: 20px;
   border-radius: 5px;
   background-color: #38b6c1;
-  color: white;
+  color: #ffffff;
 }
 #beautiful .box .imgbox {
   width: 120px;
@@ -43,10 +43,10 @@ body section {
 #beautiful .box h4 {
   font-size: 20px;
 }
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   #beautiful h1 {
     font-size: 50px;
-    color: #e01f1f;
+    color: #941111;
   }
 }
 
@@ -166,7 +166,7 @@ header .menu nav .home-color {
 header .menu .btn {
   display: none;
 }
-@media (max-width: 992px) {
+@media screen and (max-width: 992px) {
   header .menu {
     width: 100%;
   }
